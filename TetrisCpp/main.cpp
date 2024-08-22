@@ -18,8 +18,16 @@
 /*
 /*****************************************************************************************/
 
-#include "Pieces.h"
+#include <iostream>
+//#include <vector>
+//#include <string>
+//#include "Pieces.h"
 
-void main (){
-
+int main (){
+    /*vector<string> msg {"Hello", "C++", "World", "from", "VS Code"};
+    for (const string& word: msg)
+        std::cout << word << " ";
+    std::cout << std::endl;*/
+    std::cout << "Hello World" << std::endl;
+    return 0;
 };

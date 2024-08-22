@@ -22,6 +22,7 @@
 class Pieces
 {
 private:
+public:
     /* data */
     char mPieceInfo[7][4][5][5] = {
         // Square shape
@@ -180,18 +181,18 @@ private:
              {0, 0, 0, 0, 0},
              {0, 0, 0, 0, 0}}}};
 
-//public:
+public:
 //    Pieces(/* args */);
 //    ~Pieces();
 };
 
-Pieces::Pieces(/* args */)
-{
-}
+//  Pieces::Pieces(/* args */)
+// {
+// }
 
-Pieces::~Pieces()
-{
-}
+// Pieces::~Pieces()
+// {
+// } 
 
 
 
