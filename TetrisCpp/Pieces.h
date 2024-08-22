@@ -24,10 +24,12 @@ class Pieces
 {
 private:
     /* data */
-    char mPieceInfo [7][4][5][5];
+    
 public:
-    Pieces(/* args */);
-    ~Pieces();
+    char mPieceInfo [7][4][5][5];
+    //Pieces(/* args */);
+    //~Pieces();
+    
 };
 
 #endif // _PIECES_
