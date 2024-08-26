@@ -19,15 +19,20 @@
 /*****************************************************************************************/
 
 #include <iostream>
-//#include <vector>
-//#include <string>
-//#include "Pieces.h"
+#include <vector>
+#include <string>
 
-int main (){
-    /*vector<string> msg {"Hello", "C++", "World", "from", "VS Code"};
-    for (const string& word: msg)
-        std::cout << word << " ";
-    std::cout << std::endl;*/
-    std::cout << "Hello World" << std::endl;
+using namespace std;
+
+int main()
+{
+    vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+
+    for (const string& word : msg)
+    {
+        cout << word << " ";
+    }
+    cout << endl;
+
     return 0;
-};
+}

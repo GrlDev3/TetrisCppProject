@@ -1,2 +1,4 @@
 .vscode/tasks.json
+.vscode/c_cpp_properties.json
 TetrisCpp/Tetris.exe
+.vscode/settings.json
