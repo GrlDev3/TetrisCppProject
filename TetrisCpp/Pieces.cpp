@@ -19,11 +19,7 @@
 
 #include "Pieces.h"
 
-class Pieces
-{
-private:
-public:
-    /* data */
+ /* data */
     char mPieceInfo[7][4][5][5] = {
         // Square shape
         {
@@ -180,19 +176,6 @@ public:
              {0, 1, 2, 1, 0},
              {0, 0, 0, 0, 0},
              {0, 0, 0, 0, 0}}}};
-
-public:
-//    Pieces(/* args */);
-//    ~Pieces();
-};
-
-//  Pieces::Pieces(/* args */)
-// {
-// }
-
-// Pieces::~Pieces()
-// {
-// } 
 
 
 

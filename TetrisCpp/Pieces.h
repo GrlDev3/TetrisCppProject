@@ -20,13 +20,15 @@
 #ifndef _PIECES_
 #define _PIECES_
 
+    char mPieceInfo [7][4][5][5];
+
 class Pieces
 {
 private:
     /* data */
     
 public:
-    char mPieceInfo [7][4][5][5];
+    
     //Pieces(/* args */);
     //~Pieces();
     

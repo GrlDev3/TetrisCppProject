@@ -18,21 +18,27 @@
 /*
 /*****************************************************************************************/
 
+//#include <iostream>
+//#include <vector>
+//#include <string>
+
+#include "Pieces.h"
 #include <iostream>
-#include <vector>
-#include <string>
 
 using namespace std;
 
 int main()
 {
-    vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+    //vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
 
-    for (const string& word : msg)
-    {
-        cout << word << " ";
-    }
-    cout << endl;
+    //for (const string& word : msg)
+    //{
+    //    cout << word << " ";
+    //}
+    //cout << endl;
 
+    char c = mPieceInfo[0][0][2][2];
+    cout << "Kocka kozepe erteke" <<  c << endl << "Tortent barmi";
+    
     return 0;
-}
+} 
