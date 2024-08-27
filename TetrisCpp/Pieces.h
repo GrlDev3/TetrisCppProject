@@ -31,6 +31,10 @@ public:
     
     //Pieces(/* args */);
     //~Pieces();
+
+    int GetBlockType(int pPiece, int pRotation, int pX, int pY);
+    int GetXInitPos(int pPiece, int pRotation);
+    int GetYInitPos(int pPiece, int pRotation);
     
 };
 
