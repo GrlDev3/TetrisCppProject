@@ -37,8 +37,7 @@ int main()
     //}
     //cout << endl;
 
-    char c = mPieceInfo[0][0][2][2];
-    cout << "Kocka kozepe erteke" <<  c << endl << "Tortent barmi";
+    cout << "Kocka kozepe erteke" << endl << "Tortent barmi";
     
     return 0;
 } 

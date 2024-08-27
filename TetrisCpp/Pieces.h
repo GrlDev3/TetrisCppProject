@@ -20,7 +20,7 @@
 #ifndef _PIECES_
 #define _PIECES_
 
-    char mPieceInfo [7][4][5][5];
+    //char mPieceInfo [7][4][5][5]; //ezzel redefinition error lesz, szoval a mainben nem lehet hasznalni...
 
 class Pieces
 {
