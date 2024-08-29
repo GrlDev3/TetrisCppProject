@@ -1,4 +1,5 @@
-.vscode/tasks.json
-.vscode/c_cpp_properties.json
 TetrisCpp/Tetris.exe
-.vscode/settings.json
+TetrisCpp/.vscode/tasks.json
+TetrisCpp/.vscode/launch.json
+TetrisCpp/.vscode/c_cpp_properties.json
+TetrisCpp/.vscode/settings.json
